@@ -40,11 +40,10 @@ tags: methods, variable assignment, iteration
 
 tags: jquery, variable scope
 
+
 ## What Happens If I Don't Add in These Files?
 
-When you make a pull request, you'll see that some checks are failing. We've created a linter that checks for all these files so if you notice these failures with your PR, just use the gem to create those files. 
-
-
+We've created a linter that checks to make sure that all the above files have been added and have been added correctly. If you're missing any of these files or if, for example, there are problems with how you updated your .learn file, the linter will alert you to these failures when you make a Pull Request). 
 
 
 <a href='https://learn.co/lessons/standard-files-in-all-curriculum-lessons' data-visibility='hidden'>View this lesson on Learn.co</a>
