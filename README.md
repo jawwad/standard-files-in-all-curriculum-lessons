@@ -38,24 +38,10 @@ The files will be created and the only thing that you'll have to update is the .
  
 The tags are a list of all the topics the lab or lesson addresses. If you're working a basic Ruby lab that deals with arrays, iteration, indexes, you would want to include those as your tags.
 
-Use Case        | Example Tags
-----------------|------------------------------
-topics/concepts | algorithms, arrays, authorization, methods, computer science, join tables, iteration
-frameworks      | rails, sinatra, angular
-libraries       | jquery, popcorn.js
-orms            | arel, activerecord, sequel, sql
-
-#### Examples of good tagging:
-
-tags: rails, strong params, complex nested forms, fields_for
-
-tags: methods, variable assignment, iteration
-
-tags: jquery, variable scope
  
  ### Languages
  
- The languages section is all the langauges the student will practice in the lesson or lab. A frontend lab might have several languages:
+ The languages section is all the langauges, libraries, and frameworks the student will practice in the lesson or lab. A frontend lab might have several languages:
  
  ```
  languages:
