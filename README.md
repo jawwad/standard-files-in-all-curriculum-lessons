@@ -17,13 +17,26 @@ The files will be created and the only thing that you'll have to update is the .
 
 ## The .learn file
 
-There are three categories of tags. One is simply called tags. Another is language, and the last is resources. Our ultimate goal with these tags is to make curriculum standardized and easily searchable. For now, here are some general tips for tagging. 
-
-1. In languages, do not include rspec/jasmine or any testing frameworks in the tag unless the lab is explicitly teaching testing (all labs should be test-driven)
-2. Refer to the topic, unit, and lesson names for tagging ideas
-3. Be as specific as possible
-
-#### Tagging Usage
+ A typical `.learn` file looks something like this:
+ 
+ ```
+ tags:
+   - arrays
+   - CRUD
+   - basic arrays
+ languages:
+   - Ruby
+ resources:
+   - 0
+ type:
+   - lab
+ ```
+ 
+ It's important to note the `:` after the grouping name. It's equally important to not the space between the `-` and the tag or language name. Without this space, the piece of  curriculum can't be added to track on Learn.co.
+ 
+ ### Tags
+ 
+The tags are a list of all the topics the lab or lesson addresses. If you're working a basic Ruby lab that deals with arrays, iteration, indexes, you would want to include those as your tags.
 
 Use Case        | Example Tags
 ----------------|------------------------------
@@ -39,7 +52,28 @@ tags: rails, strong params, complex nested forms, fields_for
 tags: methods, variable assignment, iteration
 
 tags: jquery, variable scope
-
+ 
+ ### Languages
+ 
+ The languages section is all the langauges the student will practice in the lesson or lab. A frontend lab might have several languages:
+ 
+ ```
+ languages:
+   - HTML
+   - CSS
+   - jQuery
+   - JavaScript
+ ```
+ 
+ ### Resources
+ 
+ Resources holds an integer, the number of resources listed in the lesson or lab. It's ok if your lesson or lab doesn't have any resources.
+ 
+ 
+ ### Type
+ 
+ The type section lets us mark the category of curriculum. Is it a lab or a readme? 
+ 
 
 ## What Happens If I Don't Add in These Files?
 
