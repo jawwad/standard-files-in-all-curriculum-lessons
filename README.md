@@ -66,4 +66,4 @@ The tags are a list of all the topics the lab or lesson addresses. If you're wor
 We've created a linter that checks to make sure that all the above files have been added and have been added correctly. If you're missing any of these files or if, for example, there are problems with how you updated your .learn file, the linter will alert you to these failures when you make a Pull Request). 
 
 
-<a href='https://learn.co/lessons/standard-files-in-all-curriculum-lessons' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/standard-files-in-all-curriculum-lessons' title='Every lesson repository in Github, whether a lab or a lesson, has three common files: Contributing, License, and .learn files. '>Every lesson repository in Github, whether a lab or a lesson, has three common files: Contributing, License, and .learn files. </a> on Learn.co and start learning to code for free.</p>
